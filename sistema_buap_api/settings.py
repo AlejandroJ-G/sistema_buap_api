@@ -98,11 +98,11 @@ mysql_config = read_mysql_config()
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': mysql_config.get('database', 'app_movil_escolar_db'),
+        'NAME': mysql_config.get('database', 'railway'),
         'USER': mysql_config.get('user', 'root'),
-        'PASSWORD': mysql_config.get('password', ''),
-        'HOST': mysql_config.get('host', '127.0.0.1'),
-        'PORT': mysql_config.get('port', '3306'),
+        'PASSWORD': mysql_config.get('password', 'wyKoEWEEHfavEpKtGIdoDOlpIbpasYDf'),
+        'HOST': mysql_config.get('host', 'shuttle.proxy.rlwy.net'),
+        'PORT': mysql_config.get('port', '36625'),
         'OPTIONS': {
             'charset': 'utf8mb4',
         }
